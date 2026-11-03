@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formación de Clínica de la Convergencia 2026 | Dr. Rubén M. Pereyra</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Merriweather', 'serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f8fafc',
+                            100: '#f1f5f9',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                            accent: '#2563eb'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-50 text-brand-800 font-sans antialiased selection:bg-brand-accent selection:text-white">
+
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div>
+                <span class="font-serif font-bold text-lg sm:text-xl text-brand-900 tracking-tight">Clínica de la Convergencia 2026</span>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                <a href="#encuentro" class="hover:text-brand-accent transition-colors">El Encuentro</a>
+                <a href="#temario" class="hover:text-brand-accent transition-colors">Temario</a>
+                <a href="#inversion" class="hover:text-brand-accent transition-colors">Inversión y Beneficios</a>
+                <a href="#inscripcion" class="hover:text-brand-accent transition-colors">Inscripción</a>
+                <a href="#ubicacion" class="hover:text-brand-accent transition-colors">Ubicación</a>
+            </nav>
+            <div>
+                <a href="#inscripcion" class="bg-brand-accent hover:bg-blue-700 text-white font-medium px-5 py-2.5 rounded-xl text-sm shadow-md transition-all flex items-center gap-2">
+                    <i class="fa-solid fa-pen-to-square"></i> Inscribirme
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-brand-900 via-slate-900 to-slate-950 text-white py-20 lg:py-28 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#94a3b8_1px,transparent_1px)] [background-size:20px_20px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold bg-blue-500/10 text-blue-400 border border-blue-500/20">
+                        <i class="fa-solid fa-calendar-days"></i> Cierre de Formación 2026 • 2 Encuentros en 1
+                    </span>
+                    <h1 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-tight">
+                        Formación de Clínica de la Convergencia <span class="text-blue-400 font-normal italic">Cohorte 2026</span>
+                    </h1>
+                    <p class="text-lg text-slate-300 font-light max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Con la dirección del <strong class="text-white font-medium">Dr. y Mgter. Rubén M. Pereyra</strong>. Un espacio riguroso de articulación teórica y clínica para pensar los desafíos subjetivos de nuestra época.
+                    </p>
+                    
+                    <div class="bg-slate-800/80 border border-slate-700 p-4 rounded-2xl max-w-lg mx-auto lg:mx-0 grid grid-cols-2 gap-4 text-left">
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-clock text-blue-400 text-lg mt-1"></i>
+                            <div>
+                                <p class="text-xs text-slate-400 font-medium">Fecha y Horario</p>
+                                <p class="font-semibold text-white text-sm">21/11/2026<br>09:00 a 12:00 hs</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-utensils text-amber-400 text-lg mt-1"></i>
+                            <div>
+                                <p class="text-xs text-slate-400 font-medium">Actividad Especial</p>
+                                <p class="font-semibold text-white text-sm">Almuerzo Compartido<br>12:00 hs (Aparte)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="#inscripcion" class="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-500 text-white font-medium px-8 py-4 rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 text-base">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i> Inscribirse por WhatsApp
+                        </a>
+                        <a href="#temario" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-medium px-6 py-4 rounded-xl transition-all flex items-center justify-center gap-2 text-base">
+                            <i class="fa-solid fa-list-check"></i> Ver Temario
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Featured Images: texto.jpg y portada.jpg -->
+                <div class="lg:col-span-5 flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <div class="relative group w-44 sm:w-48">
+                        <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-amber-500 rounded-2xl blur-lg opacity-30 group-hover:opacity-50 transition duration-1000"></div>
+                        <div class="relative bg-slate-900 p-3 rounded-2xl border border-slate-700 shadow-2xl">
+                            <img src="texto.jpg" 
+                                 onerror="this.src='https://placehold.co/400x550/1e293b/ffffff?text=Vectores';" 
+                                 alt="Libro Vectores de transformación" 
+                                 class="w-full rounded-xl object-cover shadow-inner">
+                            <div class="mt-2 text-center">
+                                <span class="text-[10px] text-amber-400 font-medium uppercase tracking-wide">Bonificado 100%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative group w-44 sm:w-48">
+                        <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-amber-500 rounded-2xl blur-lg opacity-30 group-hover:opacity-50 transition duration-1000"></div>
+                        <div class="relative bg-slate-900 p-3 rounded-2xl border border-slate-700 shadow-2xl">
+                            <img src="texto2.jpg" 
+                                 onerror="this.src='https://placehold.co/400x550/1e293b/ffffff?text=Mas+alla';" 
+                                 alt="Libro Más allá del prisma" 
+                                 class="w-full rounded-xl object-cover shadow-inner">
+                            <div class="mt-2 text-center">
+                                <span class="text-[10px] text-amber-400 font-medium uppercase tracking-wide">Bonificado 100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Temario Section -->
+    <section id="temario" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand-accent bg-blue-50 px-3.5 py-1.5 rounded-full border border-blue-100">Ejes del Encuentro</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold tracking-tight text-brand-900">Temario del Encuentro Presencial</h2>
+                <p class="text-slate-600 font-light">Una jornada intensiva estructurada en dos encuentros en uno, diseñada para el debate clínico y la articulación conceptual.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-brand-50 p-8 rounded-2xl border border-slate-200 shadow-sm space-y-4 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center text-xl font-bold">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h3 class="font-serif font-bold text-xl text-brand-900">1. Focalización en estructuras límbicas</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Abordaje neuropsicoanalítico de los circuitos de la afectividad, el registro somático y su modulación en la práctica clínica actual frente a las patologías de la inercia.
+                    </p>
+                </div>
+
+                <div class="bg-brand-50 p-8 rounded-2xl border border-slate-200 shadow-sm space-y-4 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-xl flex items-center justify-center text-xl font-bold">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="font-serif font-bold text-xl text-brand-900">2. Ética de la singularidad en la era tecnológica</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Reflexión crítica sobre el impacto de la automatización y la cultura digital en el psiquismo, sosteniendo el valor insustituible de la escucha y la agencia subjetiva.
+                    </p>
+                </div>
+
+                <div class="bg-brand-50 p-8 rounded-2xl border border-slate-200 shadow-sm space-y-4 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-xl flex items-center justify-center text-xl font-bold">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="font-serif font-bold text-xl text-brand-900">3. Cierre de la Formación 2026</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Balance anual de la cohorte, puesta en común de viñetas clínicas de los participantes e integración conceptual para el ejercicio profesional avanzado.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Almuerzo Callout -->
+            <div class="mt-12 bg-gradient-to-r from-blue-900 to-slate-900 text-white p-8 rounded-2xl shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="flex items-center gap-4 text-center md:text-left">
+                    <div class="w-16 h-16 bg-blue-600/30 rounded-2xl flex items-center justify-center text-blue-400 text-2xl flex-shrink-0 mx-auto md:mx-0">
+                        <i class="fa-solid fa-mug-hot"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-serif font-bold text-xl">Almuerzo Compartido a las 12:00 hs</h4>
+                        <p class="text-slate-300 text-sm mt-1">Un espacio distendido de camaradería e intercambio institucional entre colegas y el Dr. Rubén M. Pereyra al finalizar las ponencias. <strong>El costo del almuerzo no está incluido en la inscripción al encuentro.</strong></p>
+                    </div>
+                </div>
+                <div>
+                    <span class="inline-block bg-slate-800 text-slate-300 border border-slate-700 text-xs font-semibold px-4 py-2 rounded-xl uppercase tracking-wider">Aparte / Opcional</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Inversion y Beneficios Section -->
+    <section id="inversion" class="py-24 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand-accent bg-blue-50 px-3.5 py-1.5 rounded-full border border-blue-100">Inversión y Bonificaciones</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold tracking-tight text-brand-900">Costo del Encuentro y Beneficios Especiales</h2>
+                <p class="text-slate-600 font-light">Una propuesta accesible con dos textos fundamentales bonificados al 100% sin costo adicional.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center max-w-5xl mx-auto">
+                
+                <!-- Price Box -->
+                <div class="lg:col-span-6 bg-brand-900 text-white p-8 sm:p-10 rounded-3xl shadow-xl space-y-6">
+                    <div class="border-b border-slate-700 pb-6 flex items-baseline justify-between">
+                        <div>
+                            <span class="text-xs font-semibold text-blue-400 uppercase tracking-widest">Valor Total del Encuentro</span>
+                            <h3 class="font-serif text-4xl sm:text-5xl font-bold mt-1">$ 100.000 <span class="text-lg font-normal text-slate-400">ARS</span></h3>
+                        </div>
+                        <span class="bg-blue-500/20 text-blue-300 border border-blue-500/30 text-xs font-semibold px-3 py-1.5 rounded-full">2 Encuentros en 1</span>
+                    </div>
+
+                    <div class="space-y-4 text-sm text-slate-300">
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-circle-check text-emerald-400 mt-1"></i>
+                            <div>
+                                <strong class="text-white block font-semibold">Incluye 2 encuentros en 1</strong>
+                                <p class="text-slate-400 text-xs mt-0.5">Jornada completa presencial con el temario completo de cierre de cohorte.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3 bg-slate-800/80 p-4 rounded-xl border border-slate-700">
+                            <i class="fa-solid fa-book text-amber-400 mt-1 text-lg"></i>
+                            <div>
+                                <strong class="text-white block font-semibold">Dos Textos Bonificados 100% Sin Costo:</strong>
+                                <span class="text-amber-300 font-serif italic block mt-1">• "Vectores de transformación: Más allá de la inercia, el psiquismo creador"</span>
+                                <span class="text-amber-300 font-serif italic block mt-1">• "Más allá del prisma: Nuevos horizontes en la clínica de la convergencia"</span>
+                                <p class="text-slate-400 text-xs mt-2">Entregados de regalo en el encuentro para todos los participantes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Payment Options Box -->
+                <div class="lg:col-span-6 bg-white p-8 sm:p-10 rounded-3xl shadow-lg border border-slate-200 space-y-6">
+                    <div class="space-y-2">
+                        <span class="text-xs font-semibold text-emerald-600 uppercase tracking-widest">Modalidades de Pago</span>
+                        <h3 class="font-serif text-2xl font-bold text-brand-900">Elija su forma de pago</h3>
+                        <p class="text-slate-600 text-sm">Facilidades adaptadas para estudiantes y colegas de la formación.</p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="p-4 rounded-xl border-2 border-brand-accent bg-blue-50/50 flex items-start gap-3">
+                            <div class="w-6 h-6 bg-brand-accent text-white rounded-full flex items-center justify-center text-xs font-bold mt-0.5 flex-shrink-0">1</div>
+                            <div>
+                                <strong class="text-brand-900 block font-semibold">Pago Total el Día del Encuentro</strong>
+                                <p class="text-slate-600 text-xs mt-0.5">Abona el total de $100.000 ARS el mismo 21 de noviembre al acreditativo.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-xl border-2 border-slate-200 bg-slate-50 flex items-start gap-3">
+                            <div class="w-6 h-6 bg-slate-700 text-white rounded-full flex items-center justify-center text-xs font-bold mt-0.5 flex-shrink-0">2</div>
+                            <div>
+                                <strong class="text-brand-900 block font-semibold">Plan en 2 Cuotas</strong>
+                                <p class="text-slate-600 text-xs mt-0.5">
+                                    • <strong class="text-slate-800">1ª Cuota:</strong> El día del encuentro en noviembre.<br>
+                                    • <strong class="text-slate-800">2ª Cuota:</strong> Durante el mes de diciembre.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#inscripcion" class="w-full bg-brand-accent hover:bg-blue-700 text-white font-medium py-3.5 px-6 rounded-xl shadow transition-all flex items-center justify-center gap-2 text-sm">
+                            <i class="fa-solid fa-arrow-right"></i> Completar Formulario de Inscripción
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario Interactivo de Inscripción -->
+    <section id="inscripcion" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-br from-slate-900 to-brand-900 rounded-3xl shadow-2xl border border-slate-800 overflow-hidden text-white p-8 sm:p-12">
+                
+                <div class="text-center max-w-2xl mx-auto mb-10 space-y-3">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-emerald-400 bg-emerald-950 px-3.5 py-1.5 rounded-full border border-emerald-800">Inscripción Oficial</span>
+                    <h2 class="font-serif text-3xl font-bold tracking-tight">Formulario de Inscripción al Encuentro</h2>
+                    <p class="text-slate-300 text-sm">Complete sus datos a continuación. Al enviar el formulario, se generará automáticamente su mensaje directo de WhatsApp para finalizar la inscripción con el Dr. Rubén M. Pereyra.</p>
+                </div>
+
+                <form id="whatsappForm" class="space-y-6 max-w-2xl mx-auto" onsubmit="enviarWhatsApp(event)">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="space-y-2">
+                            <label for="nombre" class="block text-sm font-medium text-slate-300">Nombre *</label>
+                            <input type="text" id="nombre" required 
+                                   class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors"
+                                   placeholder="Ingrese su nombre">
+                        </div>
+
+                        <div class="space-y-2">
+                            <label for="apellido" class="block text-sm font-medium text-slate-300">Apellido *</label>
+                            <input type="text" id="apellido" required 
+                                   class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors"
+                                   placeholder="Ingrese su apellido">
+                        </div>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label for="profesion" class="block text-sm font-medium text-slate-300">Profesión / Matrícula *</label>
+                        <input type="text" id="profesion" required 
+                               class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors"
+                               placeholder="Ej: Psicólogo / Matrícula Provincial 12345">
+                    </div>
+
+                    <div class="space-y-2">
+                        <label for="formaPago" class="block text-sm font-medium text-slate-300">Forma de Pago Elegida *</label>
+                        <select id="formaPago" required 
+                                class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-colors">
+                            <option value="" disabled selected>Seleccione una opción de pago</option>
+                            <option value="Pago total el día del encuentro ($100.000 ARS)">Pago total el día del encuentro ($100.000 ARS)</option>
+                            <option value="2 cuotas (1ª en noviembre el día del encuentro y 2ª en diciembre)">Plan en 2 cuotas (Noviembre y Diciembre)</option>
+                        </select>
+                    </div>
+
+                    <div class="pt-4">
+                        <button type="submit" 
+                                class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold py-4 px-6 rounded-xl shadow-lg transition-all flex items-center justify-center gap-3 text-base">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i> Enviar Inscripción por WhatsApp
+                        </button>
+                        <p class="text-xs text-center text-slate-400 mt-3">Número de destino: +54 9 351 764-8987</p>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Ubicación y Mapa Section -->
+    <section id="ubicacion" class="py-24 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand-accent bg-blue-50 px-3.5 py-1.5 rounded-full border border-blue-100">Lugar del Encuentro</span>
